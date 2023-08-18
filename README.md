@@ -80,7 +80,7 @@ $ source activate idetc
 - Install required libraries:  
 ```
 $ cd IDETC23-Autodesk-hackathon
-$ pip install -r reequirements.txt
+$ pip install -r requirements.txt
 ```
 ## Dataset
 - [Download instructions](dataset). Please note that the dataset has been modified for this hackathon, and you should only use data from these download instructions in your implementation.
