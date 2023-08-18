@@ -82,6 +82,9 @@ $ source activate idetc
 $ cd IDETC23-Autodesk-hackathon
 $ pip install -r requirements.txt
 ```
+
+__Note:__ One can find the setup of the Docker container for AMD-based GPUs [here](https://github.com/bankh/GPU_Compute/blob/main/Docker_images/AMD/readMe.md).  
+
 ## 💾 Dataset
 - [Download instructions](dataset). Please note that the dataset has been modified for this hackathon, and you should only use data from these download instructions in your implementation.
   - The data has been modified to include in each `assembly.json` file a `material_category` label for each body. This label, which describes the material category of the body as defined in the table above, can be used to train your model.
