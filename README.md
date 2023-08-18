@@ -87,6 +87,40 @@ $ pip install -r reequirements.txt
   - The data has been modified to include in each `assembly.json` file a `material_category` label for each body. This label, which describes the material category of the body as defined in the table above, can be used to train your model.
 - **Dataset Specifications:** Please refer to [the original documentation](https://github.com/AutodeskAILab/Fusion360GalleryDataset/blob/master/docs/assembly.md) of the Fusion 360 Gallery Dataset for information about the structure of the data in `assembly.json` and to find out more about the features in the dataset.
 
+The assembly data is provided in a JSON file with the following top-level structure ([from the original documentation](https://github.com/AutodeskAILab/Fusion360GalleryDataset/blob/master/docs/assembly.md)) :
+
+```{js}
+{
+    "tree": {...},
+    "root": {...},
+    "occurrences": {...},
+    "components": {...},
+    "bodies": {...},
+    "joints": {...},
+    "as_built_joints": {...},
+    "contacts": [...],
+    "holes": [...],
+    "properties": {...}
+}
+```
+
+The table below briefly describes the top-level data elements in the JSON:
+
+| Element      | Description |
+| :--- | :--- |
+| `tree`   | The designer-defined hierarchy of occurrences in the design. Often used to organize sub-assembles into a meaningfully hierarchy        |
+| `root`      | The root component of the design as defined by the designer       |
+| `occurrences`   | Instances of components, referencing the parent component with instance properties such as location, orientation, and visibility        |
+| `components`   | Components containing bodies or other components to form sub-assemblies        |
+| `bodies`   | The underlying 3D shape geometry in the B-Rep format        |
+| `joints`   | Constraints defining the relative pose and degrees of freedom (DOF) between a pair of occurrences        |
+| `as_built_joints`   | Joints that maintain their position in space and are not transformed        |
+| `contacts`   | Faces that are in contact between different bodies        |
+| `holes`   | A list of hole features with information about the type of hole, size, direction, and location        |
+| `properties`   | Statistical information and metadata about the overall assembly        |
+
+The structure and representation of the data follows the [Fusion 360 API](https://help.autodesk.com/view/fusion360/ENU/?guid=GUID-A92A4B10-3781-4925-94C6-47DA85A4F65A).  
+
 ## Baseline 
 - A GPT-based baseline can be found [here](baseline/gpt_baseline.ipynb).
 - This can serve as an example of how to extract useful features from the data, and how to evaluate the method.
