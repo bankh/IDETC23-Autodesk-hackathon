@@ -67,7 +67,21 @@ Welcome to the Autodesk problem statement for the 2023 IDETC hackathon!
 - The hackathon's goal is to predict the `material_category` for each body in the [test set](dataset/test_data). The [train data](dataset) contains material category labels for each body of each assembly in the `assembly.json` files.
 - Link to [PDF](Autodesk%20Hackathon%20Problem%20Statement%202023.pdf) with more information.
 
-
+## Instructions for Setup and Run 
+- Clone the repository (e.g., ssh version below):
+```
+$ git clone git@github.com:bankh/IDETC23-Autodesk-hackathon.git
+```
+- Setup and activate conda environment:  
+```
+$ conda create --name=idetc python=3.8
+$ source activate idetc
+```
+- Install required libraries:  
+```
+$ cd IDETC23-Autodesk-hackathon
+$ pip install -r reequirements.txt
+```
 ## Dataset
 - [Download instructions](dataset). Please note that the dataset has been modified for this hackathon, and you should only use data from these download instructions in your implementation.
   - The data has been modified to include in each `assembly.json` file a `material_category` label for each body. This label, which describes the material category of the body as defined in the table above, can be used to train your model.
