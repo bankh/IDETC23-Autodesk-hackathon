@@ -80,3 +80,7 @@ Welcome to the Autodesk problem statement for the 2023 IDETC hackathon!
 ## Submission
 - [Submission instructions](submission).
 
+## References  
+- [Bian, Shijie, et al. "Material prediction for design automation using graph representation learning." International Design Engineering Technical Conferences and Computers and Information in Engineering Conference. Vol. 86229. American Society of Mechanical Engineers, 2022.](https://arxiv.org/pdf/2209.12793.pdf)
+>- [GitHub Repository](https://github.com/danielegrandi-adsk/material-gnn#material-prediction-for-design-automation-using-graph-representation-learning)
+
