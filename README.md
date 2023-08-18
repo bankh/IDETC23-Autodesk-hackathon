@@ -1,26 +1,71 @@
-# 2023 IDETC Hackathon <br /> Automating Material Selection for Product Design   
-
-<div>
-<img src="overview.png" width="500"/>
+<div align="center" style="font-size: 22pt;"> 
+    <strong>2023 IDETC Hackathon <br/> Automating Material Selection for Product Design</strong>  
 </div>
-
+<br/>
+<div align="center">
+    <img src="overview.png" width="500"/>
+</div>
+  
+<br/>
 Welcome to the Autodesk problem statement for the 2023 IDETC hackathon!
+<br/>
+<br/>
 
-In this challenge, your task is to come up with an open-ended solution to identify an appropriate material for a set of parts, based on their CAD geometries and assembly context. 
+<div align="center">
+  <strong>Material Category Definition Table</strong>
+  <table border="1" style="width: 100%; text-align: center; margin: auto;">
+    <thead>
+        <tr>
+            <th><strong>Material Category</strong></th>
+            <th>Definition</th>
+            <th>Example(s)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Metal_Aluminum</td>
+            <td>Aluminum-based metal</td>
+            <td>Aluminum alloy</td>
+        </tr>
+        <tr>
+            <td>Metal_Ferrous</td>
+            <td>Ferrous metal (excluding carbon steel)</td>
+            <td>Cast iron</td>
+        </tr>
+        <tr>
+            <td>Metal_Ferrous_Steel</td>
+            <td>Carbon steel</td>
+            <td>Stainless steel</td>
+        </tr>
+        <tr>
+            <td>Metal_Non-Ferrous</td>
+            <td>Non-Ferrous metal</td>
+            <td>Platinum, silver</td>
+        </tr>
+        <tr>
+            <td>Other</td>
+            <td>Uncategorized material</td>
+            <td>Glass, fabric, ceramic</td>
+        </tr>
+        <tr>
+            <td>Plastic</td>
+            <td>Plastic</td>
+            <td>Thermoplastic</td>
+        </tr>
+        <tr>
+            <td>Wood</td>
+            <td>Natural and engineered wood</td>
+            <td>Softwood</td>
+        </tr>
+    </tbody>
+</table>
 
-| **Material   Category** 	| **Definition**                           	| **Example(s)**         	|
-|-------------------------	|------------------------------------------	|------------------------	|
-| Metal_Aluminum          	| Aluminum-based metal                     	| Aluminum alloy         	|
-| Metal_Ferrous           	| Ferrous metal (excluding carbon   steel) 	| Cast iron              	|
-| Metal_Ferrous_Steel     	| Carbon steel                             	| Stainless steel        	|
-| Metal_Non-Ferrous       	| Non-Ferrous metal                        	| Platinum, silver       	|
-| Other                   	| Uncategorized material                   	| Glass, fabric, ceramic 	|
-| Plastic                 	| Plastic                                  	| Thermoplastic          	|
-| Wood                    	| Natural and engineered wood              	| Softwood               	|
 
+</div>
+  
 ## Problem Statement
 - The hackathon's goal is to predict the `material_category` for each body in the [test set](dataset/test_data). The [train data](dataset) contains material category labels for each body of each assembly in the `assembly.json` files.
-- [Link to PDF](Autodesk%20Hackathon%20Problem%20Statement%202023.pdf) with more information.
+- Link to [PDF](Autodesk%20Hackathon%20Problem%20Statement%202023.pdf) with more information.
 
 
 ## Dataset
@@ -34,3 +79,4 @@ In this challenge, your task is to come up with an open-ended solution to identi
 
 ## Submission
 - [Submission instructions](submission).
+
