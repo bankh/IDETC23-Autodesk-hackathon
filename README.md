@@ -1,5 +1,5 @@
-🥇 🥈 🥉<div align="center" style="font-size: 22pt;"> 
-    <strong>2023 IDETC Hackathon <br/> Automating Material Selection for Product Design</strong>  
+<div align="center" style="font-size: 22pt;"> 
+    <strong>🥇 🥈 🥉 2023 IDETC Hackathon <br/> Automating Material Selection for Product Design</strong>  
 </div>
 <br/>
 <div align="center">
@@ -63,7 +63,7 @@ Welcome to the Autodesk problem statement for the 2023 IDETC hackathon!
 
 </div>
   
-🤔 ## Problem Statement
+## 🤔 Problem Statement
 - The hackathon's goal is to predict the `material_category` for each body in the [test set](dataset/test_data). The [train data](dataset) contains material category labels for each body of each assembly in the `assembly.json` files.
 - Link to [PDF](Autodesk%20Hackathon%20Problem%20Statement%202023.pdf) with more information.
 
@@ -82,7 +82,7 @@ $ source activate idetc
 $ cd IDETC23-Autodesk-hackathon
 $ pip install -r requirements.txt
 ```
-💾 ## Dataset
+## 💾 Dataset
 - [Download instructions](dataset). Please note that the dataset has been modified for this hackathon, and you should only use data from these download instructions in your implementation.
   - The data has been modified to include in each `assembly.json` file a `material_category` label for each body. This label, which describes the material category of the body as defined in the table above, can be used to train your model.
 - **Dataset Specifications:** Please refer to [the original documentation](https://github.com/AutodeskAILab/Fusion360GalleryDataset/blob/master/docs/assembly.md) of the Fusion 360 Gallery Dataset for information about the structure of the data in `assembly.json` and to find out more about the features in the dataset.
@@ -121,11 +121,11 @@ The table below briefly describes the top-level data elements in the JSON:
 
 The structure and representation of the data follows the [Fusion 360 API](https://help.autodesk.com/view/fusion360/ENU/?guid=GUID-A92A4B10-3781-4925-94C6-47DA85A4F65A).  
 
- 📊  ## Baseline 
+## 📊 Baseline 
 - A GPT-based baseline can be found [here](baseline/gpt_baseline.ipynb).
 - This can serve as an example of how to extract useful features from the data, and how to evaluate the method.
 
-📤 ## Submission
+## 📤 Submission
 - [Submission instructions](submission).
 
 ## ToDo
