@@ -132,7 +132,6 @@ The structure and representation of the data follows the [Fusion 360 API](https:
     <tr>
         <td><div align="center"><img src="https://github.com/bankh/IDETC23-Autodesk-hackathon/assets/9688867/fc644039-5caf-403f-8e8d-d082bac2ad25" alt="image"></div></td>
         <td><div align="center"><img src="https://github.com/bankh/IDETC23-Autodesk-hackathon/assets/9688867/8ab8d1d4-9b48-4143-a761-992a08615ba2" alt="image"></div></td>
-        <td><div align="center"><img src="https://github.com/bankh/IDETC23-Autodesk-hackathon/assets/9688867/8ab8d1d4-9b48-4143-a761-992a08615ba2" alt="image"></div></td>
     </tr>
     <tr>
         <td colspan="2"><div align="center">Performance of GPT-3.5-turbo with T=0 and its Confusion Matrix </div></td>
