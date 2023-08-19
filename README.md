@@ -148,7 +148,7 @@ The cost of gpt-3.5-turbo for training set (~2000+ samples) was about __0.40 USD
 <tr><div align="center">Judgment Criteria from <a href="https://github.com/bankh/IDETC23-Autodesk-hackathon/blob/main/Autodesk%20Hackathon%20Problem%20Statement%202023.pdf">Problem Statement PDF</tr></div>
 </table>  
 
-❗ Please see the references for the sample video presentation and associated PowerPoint slide deck from IDETC 2022 (Bian,2022).  
+❗ Please see the [references](https://github.com/bankh/IDETC23-Autodesk-hackathon/tree/main#references) for the sample video presentation and associated PowerPoint slide deck from IDETC 2022 (Bian,2022).  
 
 ## ToDo
 - [x] Finish cloning, setting up, and installing the repository.
