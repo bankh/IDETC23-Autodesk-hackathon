@@ -122,7 +122,7 @@ The table below briefly describes the top-level data elements in the JSON:
 | `holes`   | A list of hole features with information about the type of hole, size, direction, and location        |
 | `properties`   | Statistical information and metadata about the overall assembly        |
 
-The structure and representation of the data follows the [Fusion 360 API](https://help.autodesk.com/view/fusion360/ENU/?guid=GUID-A92A4B10-3781-4925-94C6-47DA85A4F65A).  
+The structure and representation of the data follow the [Fusion 360 API](https://help.autodesk.com/view/fusion360/ENU/?guid=GUID-A92A4B10-3781-4925-94C6-47DA85A4F65A).  
 
 ## 📊 Baseline 
 - A GPT-based baseline can be found [here](baseline/gpt_baseline_training.ipynb).
@@ -138,10 +138,17 @@ The structure and representation of the data follows the [Fusion 360 API](https:
     </tr>
 </table>
 
-The cost of gpt-3.5-turbo for training set was about __0.40 USD__.
+The cost of gpt-3.5-turbo for training set (~2000+ samples) was about __0.40 USD__.
 
 ## 📤 Submission
 - [Submission instructions](submission) and submission sample ([GPT-based baseline inference](https://github.com/bankh/IDETC23-Autodesk-hackathon/blob/main/baseline/gpt_baseline_testing.ipynb)).
+
+<table>
+<tr><div align="center"><img src="https://github.com/bankh/IDETC23-Autodesk-hackathon/assets/9688867/b46d3fa4-2638-406e-bcec-684e84b8fcdf"</div></tr>
+<tr><div align="center">Judgment Criteria from <a href="https://github.com/bankh/IDETC23-Autodesk-hackathon/blob/main/Autodesk%20Hackathon%20Problem%20Statement%202023.pdf">Problem Statement PDF</tr></div>
+</table>  
+
+❗ Please see the references for the sample video presentation and associated PowerPoint slide deck from IDETC 2022 (Bian,2022).  
 
 ## ToDo
 - [x] Finish cloning, setting up, and installing the repository.
@@ -151,4 +158,6 @@ The cost of gpt-3.5-turbo for training set was about __0.40 USD__.
 ## References  
 - [Bian, Shijie, et al. "Material prediction for design automation using graph representation learning." International Design Engineering Technical Conferences and Computers and Information in Engineering Conference. Vol. 86229. American Society of Mechanical Engineers, 2022.](https://arxiv.org/pdf/2209.12793.pdf)
 >- [GitHub Repository](https://github.com/danielegrandi-adsk/material-gnn#material-prediction-for-design-automation-using-graph-representation-learning) of "Material prediction for design automation using graph representation learning."
+>- [Conference presentation](https://www.youtube.com/watch?v=JLdQ2ntyn0A)
+>- [PowerPoint Slide Deck from IDETC 2022](https://brandonbian.github.io/assets/IDETC_2022_Presentation.pdf)
 
