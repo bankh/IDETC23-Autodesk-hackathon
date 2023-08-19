@@ -128,12 +128,25 @@ The structure and representation of the data follows the [Fusion 360 API](https:
 - A GPT-based baseline can be found [here](baseline/gpt_baseline.ipynb).
 - This can serve as an example of how to extract useful features from the data, and how to evaluate the method.
 
+<table>
+    <tr>
+        <td><div align="center"><img src="https://github.com/bankh/IDETC23-Autodesk-hackathon/assets/9688867/fc644039-5caf-403f-8e8d-d082bac2ad25" alt="image"></div></td>
+        <td><div align="center"><img src="https://github.com/bankh/IDETC23-Autodesk-hackathon/assets/9688867/8ab8d1d4-9b48-4143-a761-992a08615ba2" alt="image"></div></td>
+        <td><div align="center"><img src="https://github.com/bankh/IDETC23-Autodesk-hackathon/assets/9688867/8ab8d1d4-9b48-4143-a761-992a08615ba2" alt="image"></div></td>
+    </tr>
+    <tr>
+        <td colspan="2"><div align="center">Performance of GPT-3.5-turbo with T=0 and its Confusion Matrix </div></td>
+    </tr>
+</table>
+
+The cost of gpt-3.5-turbo was about __0.40 USD__.
+
 ## 📤 Submission
 - [Submission instructions](submission).
 
 ## ToDo
 - [x] Finish cloning, setting up, and installing the repository.
-- [ ] Run the baseline algorithm and generate the submission file for workflow validation.
+- [x] Run the baseline algorithm and generate the submission file for workflow validation.
 - [ ] Implement the method from (Bian, 2022) and compare results.
   
 ## References  
