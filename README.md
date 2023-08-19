@@ -138,10 +138,10 @@ The structure and representation of the data follows the [Fusion 360 API](https:
     </tr>
 </table>
 
-The cost of gpt-3.5-turbo was about __0.40 USD__.
+The cost of gpt-3.5-turbo for training set was about __0.40 USD__.
 
 ## 📤 Submission
-- [Submission instructions](submission).
+- [Submission instructions](submission) and submission sample ([GPT-based baseline inference](https://github.com/bankh/IDETC23-Autodesk-hackathon/blob/main/baseline/gpt_baseline_testing.ipynb)).
 
 ## ToDo
 - [x] Finish cloning, setting up, and installing the repository.
