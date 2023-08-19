@@ -141,7 +141,7 @@ The structure and representation of the data follow the [Fusion 360 API](https:/
 The cost of gpt-3.5-turbo for training set (~2000+ samples) was about __0.40 USD__.
 
 ## 📤 Submission
-- [Submission instructions](submission) and submission sample ([GPT-based baseline inference](https://github.com/bankh/IDETC23-Autodesk-hackathon/blob/main/baseline/gpt_baseline_testing.ipynb)).
+- [Submission instructions](submission) and submission sample ([GPT-based baseline zero shot inference](https://github.com/bankh/IDETC23-Autodesk-hackathon/blob/main/baseline/gpt_baseline_testing.ipynb)).
 
 <table>
 <tr><div align="center"><img src="https://github.com/bankh/IDETC23-Autodesk-hackathon/assets/9688867/b46d3fa4-2638-406e-bcec-684e84b8fcdf"</div></tr>
@@ -153,6 +153,7 @@ The cost of gpt-3.5-turbo for training set (~2000+ samples) was about __0.40 USD
 ## ToDo
 - [x] Finish cloning, setting up, and installing the repository.
 - [x] Run the baseline algorithm and generate the submission file for workflow validation.
+- [ ] Run the baseline algorithm with few shot approach.
 - [ ] Implement the method from (Bian, 2022) and compare results.
   
 ## References  
