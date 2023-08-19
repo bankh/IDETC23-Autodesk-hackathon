@@ -2,7 +2,7 @@
 
 [This is the CSV file which you will use to submit your results](submission_TEAM_NAME.csv).
 
-❗ __Please pay attention to the order of the data. The [example](submission_TEAM_NAME.csv) is in ascending order with respect to the first column.__  
+❗ __Please pay attention to the order of the data. The [submission example](submission_TEAM_NAME.csv) is in ascending order with respect to the first column.__  
 
 The CSV file contains 3 columns (`assembly_id`, `body_id`, and `material_category`), and 155 lines corresponding to the 155 bodies in the [test dataset](../dataset/test_data).
 
