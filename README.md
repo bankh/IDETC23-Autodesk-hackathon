@@ -160,4 +160,5 @@ The cost of gpt-3.5-turbo for training set (~2000+ samples) was about __0.40 USD
 >- [GitHub Repository](https://github.com/danielegrandi-adsk/material-gnn#material-prediction-for-design-automation-using-graph-representation-learning) of "Material prediction for design automation using graph representation learning."
 >- [Conference presentation](https://www.youtube.com/watch?v=JLdQ2ntyn0A)
 >- [PowerPoint Slide Deck from IDETC 2022](https://brandonbian.github.io/assets/IDETC_2022_Presentation.pdf)
+>- [Relevant topic presentation of the first author](https://www.youtube.com/watch?v=JvbKqha84Pk)
 
