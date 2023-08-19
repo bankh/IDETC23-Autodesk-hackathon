@@ -125,7 +125,7 @@ The table below briefly describes the top-level data elements in the JSON:
 The structure and representation of the data follows the [Fusion 360 API](https://help.autodesk.com/view/fusion360/ENU/?guid=GUID-A92A4B10-3781-4925-94C6-47DA85A4F65A).  
 
 ## 📊 Baseline 
-- A GPT-based baseline can be found [here](baseline/gpt_baseline.ipynb).
+- A GPT-based baseline can be found [here](baseline/gpt_baseline_training.ipynb).
 - This can serve as an example of how to extract useful features from the data, and how to evaluate the method.
 
 <table>
