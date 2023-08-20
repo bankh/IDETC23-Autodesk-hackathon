@@ -134,7 +134,7 @@ The structure and representation of the data follow the [Fusion 360 API](https:/
         <td><div align="center"><img src="https://github.com/bankh/IDETC23-Autodesk-hackathon/assets/9688867/8ab8d1d4-9b48-4143-a761-992a08615ba2" alt="image"></div></td>
     </tr>
     <tr>
-        <td colspan="2"><div align="center">Performance of GPT-3.5-turbo with T=0 and its Confusion Matrix </div></td>
+        <td colspan="2"><div align="center">Performance of baseline model (GPT-3.5-turbo with T=0) and its Confusion Matrix </div></td>
     </tr>
 </table>
 
