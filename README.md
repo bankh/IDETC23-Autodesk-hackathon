@@ -162,4 +162,5 @@ The cost of gpt-3.5-turbo for training set (~2000+ samples) was about __0.40 USD
 >- [Conference presentation](https://www.youtube.com/watch?v=JLdQ2ntyn0A)
 >- [PowerPoint Slide Deck from IDETC 2022](https://brandonbian.github.io/assets/IDETC_2022_Presentation.pdf)
 >- [Relevant topic presentation of the first author](https://www.youtube.com/watch?v=JvbKqha84Pk)
-
+- [Ma, K., Grandi, D., McComb, C., & Goucher-Lambert, K. (2023). Conceptual Design Generation Using Large Language Models. arXiv preprint arXiv:2306.01779.](https://arxiv.org/pdf/2306.01779)  
+>- [Github Repository](https://github.com/kevinma1515/gpt_idetc) of "Conceptual Design Generation Using Large Language Models."
